@@ -1,0 +1,6 @@
+.wrapper {
+  background-color: aqua;
+  width: 15rem;
+  margin: 10rem auto 0;
+  justify-content: center;
+}

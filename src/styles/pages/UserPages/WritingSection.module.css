@@ -1,0 +1,48 @@
+.wrapper {
+  position: relative;
+  width: 30rem;
+  top: 1.5rem;
+  margin: auto;
+  display: flex;
+  flex-flow: column wrap;
+  row-gap: 1rem;
+}
+
+.control {
+  margin: 1rem 0;
+  border-bottom: 2px solid #cdcdcd;
+}
+
+.control input,
+.control textarea {
+  display: block;
+  width: 100%;
+  font: inherit;
+  font-size: 1rem;
+  padding: 1rem;
+  /* background-color: #272727; */
+  color: #a5a4a4;
+}
+
+input[type="date"]::-webkit-calendar-picker-indicator {
+  background-color: #ffffff;
+}
+
+.control input::placeholder,
+.control textarea::placeholder {
+  color: #848484;
+  letter-spacing: 0.5rem;
+  width: fit-content;
+  padding: 0.1rem;
+}
+
+.control input:hover,
+.control textarea:hover {
+  outline: none;
+}
+
+.control input:focus,
+.control textarea:focus {
+  outline: none;
+  background-color: black;
+}

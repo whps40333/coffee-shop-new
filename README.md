@@ -1,70 +1,38 @@
-# Getting Started with Create React App
+# COFFEE-SHOP
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## 專案介紹
+這是一個用react框架撰寫的網頁,裡面包含登入註冊,收藏、填寫表單、查看表單資料和收藏店家的功能。
+資料庫的部分是用firebase的即時資料庫與authentiction，UIUX設計則是用figma畫圖。
 
-## Available Scripts
+![首先是登入頁面，登入和註冊的背景動畫是用ae製作的，並接上firebase的authentication](./src/images/coffee-shop-login.jpg)
+首先是登入頁面，登入和註冊的背景動畫是用ae製作的，並接上firebase的authentication
+![註冊頁面](./src/images/coffee-shop-register.jpg)
+註冊頁面
+![註冊和登入都有設useNavigate()導入mainPage，這個頁面可以查看店家資料並進行收藏](./src/images/%E5%BA%97%E5%AE%B6%E6%B8%85%E5%96%AE.jpg)
+註冊和登入都有設useNavigate()導入mainPage，這個頁面可以查看店家資料並進行收藏
+![另外，mainPage也有做RWD的效果](./src/images/%E5%BA%97%E5%AE%B6%E6%B8%85%E5%96%AERWD.jpg)
+另外，mainPage也有做RWD的效果
+![收藏店家後，可以去使用者功能查看已收藏的餐廳](./src/images/%E6%9F%A5%E7%9C%8B%E6%94%B6%E8%97%8F%E5%BA%97%E5%AE%B6.jpg)
+收藏店家後，可以去使用者功能查看已收藏的餐廳
+![除了收藏餐廳，這裡也收錄了撰寫評論的功能](./src/images/%E6%92%B0%E5%AF%AB%E8%A9%95%E8%AB%96.jpg)
+除了收藏餐廳，這裡也收錄了撰寫評論的功能
+![還有查看評論的功能](./src/images/%E6%9F%A5%E7%9C%8B%E8%A9%95%E8%AB%96.jpg)
+還有查看評論的功能
 
-In the project directory, you can run:
 
-### `npm start`
+## 使用方式
+須確認已安裝 node.js 與 npm
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+1.打開終端機,Clone 專案至本機
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+git clone https://github.com/Whps40333/coffee-shop.git
+2.進入專案資料夾
 
-### `npm test`
+cd coffee-shop
+3.安裝 npm 套件
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+npm install
+4.啟動專案
 
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+npm start
+5.成功後會自動開啟網站

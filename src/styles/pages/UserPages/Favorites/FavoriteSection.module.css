@@ -1,0 +1,53 @@
+.wrapper {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  width: 40rem;
+  margin: auto;
+  padding: 1rem 2rem;
+}
+
+.actions {
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding-bottom: 4rem;
+}
+
+.actions button {
+  font: inherit;
+  cursor: pointer;
+  background-color: transparent;
+  border: 1px solid #8a2b06;
+  padding: 0.5rem 2rem;
+  border-radius: 25px;
+  margin-right: 1.5rem;
+}
+
+.actions button:hover,
+.actions button:active {
+  background-color: #5a1a01;
+  border-color: #5a1a01;
+  color: white;
+}
+
+.actions .button--alt {
+  color: #8a2b06;
+}
+
+.actions .button {
+  background-color: #8a2b06;
+  color: white;
+}
+
+@media screen and (max-width: 600px) {
+  .wrapper {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    width: 30rem;
+    margin: auto;
+    padding: 1rem 2rem;
+  }
+}

@@ -1,0 +1,34 @@
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  row-gap: 1.5rem;
+  width: 10rem;
+}
+
+.description {
+  font-style: italic;
+}
+
+.score {
+  color: aliceblue;
+  background-color: black;
+  border-radius: 1rem;
+  width: fit-content;
+  justify-content: center;
+  font-weight: bold;
+  font-size: 0.5rem;
+  padding: 0.2rem;
+}
+
+.price {
+  margin-top: 0.25rem;
+  font-weight: bold;
+  color: #ad5502;
+  font-size: 1.25rem;
+}
+
+.disabled {
+  background-color: gray;
+  color: white;
+  cursor: default;
+}

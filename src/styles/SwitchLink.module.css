@@ -1,0 +1,30 @@
+.baseLink {
+  text-decoration: underline;
+}
+
+.switchLink {
+  position: relative;
+  width: 130px;
+  padding: 17.5px 0px;
+  display: inline-block;
+  border-bottom: 2px solid transparent;
+  text-decoration: none;
+  text-align: center;
+  transition: color 0.2s, background 0.2s, opacity 0.2s;
+}
+
+.switchLink :hover {
+  opacity: 0.75;
+  color: #222222;
+}
+
+.switchLink ::after {
+  content: "";
+  position: absolute;
+  left: 0px;
+  bottom: -2px;
+  width: 100%;
+  height: 2px;
+  background-color: transparent;
+  border-radius: 100px;
+}
